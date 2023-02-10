@@ -5,6 +5,7 @@ import Shortener from "./Components/Shortener/Shortener";
 import Statistics from "./Components/Statistics/Statistics";
 import Booster from "./Components/Booster/Booster";
 import Footer from "./Components/Footer/Footer";
+import Link from "./Components/Link/Link";
 function App() {
   return (
     <div className="App">

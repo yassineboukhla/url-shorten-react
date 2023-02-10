@@ -2,5 +2,39 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 60px;
+  padding-inline: 200px;
+  margin-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.slide_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.slide_wrapper h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.slide_wrapper p {
+  font-size: 20px;
+  width: 500px;
+  word-wrap: break-word;
+  text-align: left;
+  color: gray;
+}
+.slide_wrapper button {
+  /* padding: 20px 30px; */
+  width: 150px;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.slide_image {
+  max-width: 40%;
 }

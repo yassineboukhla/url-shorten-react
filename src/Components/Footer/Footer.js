@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../Header/images/logo.svg";
 import facebookIcon from "./images/icon-facebook.svg";
 import instagramIcon from "./images/icon-instagram.svg";
 import pinterestIcon from "./images/icon-pinterest.svg";
@@ -8,7 +7,7 @@ import styles from "./Footer.module.css";
 function Footer() {
   return (
     <div className={styles.footer}>
-      <img src={logo} alt="" className={styles.footer_logo} />
+      <h1 className={styles.footer_logo}>Shortly</h1>
       <div className={styles.footer_links}>
         <div className={styles.footer_links_items}>
           <h4>Features</h4>

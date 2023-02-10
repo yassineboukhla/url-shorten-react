@@ -3,9 +3,25 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: blueviolet;
+  background-image: url("./images/bg-boost-desktop.svg");
+  background-color: #3a3053;
   width: 100%;
-  height: 150px;
+  height: 200px;
   color: white;
   gap: 20px;
+}
+.booster h2 {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+.booster button {
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
 }

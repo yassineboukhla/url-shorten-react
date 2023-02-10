@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "../Card/Card";
 import brandIMG from "./images/icon-brand-recognition.svg";
-import recordIMG from "./images/icon-brand-recognition.svg";
-import customIMG from "./images/icon-brand-recognition.svg";
+import recordIMG from "./images/icon-detailed-records.svg";
+import customIMG from "./images/icon-fully-customizable.svg";
 import styles from "./Statistics.module.css";
 function Statistics() {
   return (

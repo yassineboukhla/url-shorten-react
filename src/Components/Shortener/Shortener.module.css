@@ -1,11 +1,34 @@
 .shortener {
-  background-color: blueviolet;
-  width: 70%;
+  background-image: url("./images/bg-shorten-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: currentColor;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
   height: 100px;
-  margin-inline: auto;
+  margin-inline: 200px;
   margin-bottom: 80px;
+}
+.shortener input {
+  height: 50px;
+  width: 850px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.shortener button {
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
 }
