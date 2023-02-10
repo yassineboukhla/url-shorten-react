@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  background-color: tomato;
+  height: 100%;
+  padding: 60px;
+}
+.footer_logo {
+  width: 130;
+  height: 40px;
+}
+.footer_links {
+  display: flex;
+  gap: 150px;
+}
+.footer_links_items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer_links_items a {
+  text-decoration: none;
+  color: white;
+}

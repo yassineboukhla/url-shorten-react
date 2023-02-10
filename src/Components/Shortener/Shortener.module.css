@@ -1,0 +1,11 @@
+.shortener {
+  background-color: blueviolet;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100px;
+  margin-inline: auto;
+  margin-bottom: 80px;
+}

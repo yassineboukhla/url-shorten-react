@@ -1,0 +1,27 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+.statistics_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.statistics_cards {
+  display: flex;
+  gap: 20px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 70%;
+  font-size: 20px;
+  text-align: justify;
+}
