@@ -25,3 +25,6 @@
   cursor: pointer;
   font-weight: bold;
 }
+.booster button:hover {
+  opacity: 0.8;
+}

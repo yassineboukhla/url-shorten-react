@@ -23,6 +23,10 @@
 }
 .header_list li {
   cursor: pointer;
+  color: gray;
+}
+.header_list li:hover {
+  color: black;
 }
 .header_auth {
   display: flex;
@@ -38,10 +42,17 @@
   cursor: pointer;
   font-weight: bold;
 }
+.btn_signup:hover {
+  opacity: 0.6;
+}
 .btn_login {
   background-color: transparent;
   border: none;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  color: gray;
+}
+.btn_login:hover {
+  color: black;
 }

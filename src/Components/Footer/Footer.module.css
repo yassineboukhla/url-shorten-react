@@ -22,7 +22,7 @@
 .footer_links_items {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 .footer_links_items h4 {
   font-size: 20px;
@@ -31,6 +31,10 @@
 .footer_links_items a {
   text-decoration: none;
   color: gray;
+  white-space: nowrap;
+}
+.footer_links_items a:hover {
+  color: hsl(180, 66%, 49%);
 }
 .footer_icons {
   display: flex;
@@ -39,4 +43,5 @@
 .footer_icons img {
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }

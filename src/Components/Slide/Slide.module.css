@@ -35,6 +35,9 @@
   cursor: pointer;
   font-weight: bold;
 }
+.slide_wrapper button:hover {
+  opacity: 0.6;
+}
 .slide_image {
   max-width: 40%;
 }
