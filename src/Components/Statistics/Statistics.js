@@ -15,7 +15,7 @@ function Statistics() {
         </p>
       </div>
       <div className={styles.statistics_cards}>
-        <div>
+        <div className={styles.statistics_cards_first}>
           <Card
             url={brandIMG}
             title="Brand Recognition"
@@ -23,7 +23,7 @@ function Statistics() {
           />
         </div>
 
-        <div style={{ marginTop: "60px" }}>
+        <div className={styles.statistics_cards_second}>
           <Card
             url={recordIMG}
             title="Detailed Records"
@@ -31,7 +31,7 @@ function Statistics() {
         people engage with your content helps inform better decisions."
           />
         </div>
-        <div style={{ marginTop: "120px" }}>
+        <div className={styles.statistics_cards_third}>
           <Card
             url={customIMG}
             title="Fully Customizable"
