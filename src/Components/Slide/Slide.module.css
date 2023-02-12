@@ -53,13 +53,15 @@
 @media only screen and (max-width: 1024px) {
   .slide {
     flex-direction: column;
-    padding-inline: 50px;
+    padding-inline: 25px;
   }
   .slide_wrapper h1 {
     text-align: center;
   }
   .slide_wrapper p {
     text-align: center;
+    word-wrap: break-word;
+    width: auto;
   }
   .slide_wrapper button {
     margin-inline: auto;

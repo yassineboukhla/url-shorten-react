@@ -30,5 +30,6 @@
   .card {
     height: 250px;
     align-items: center;
+    padding-inline: 25px;
   }
 }

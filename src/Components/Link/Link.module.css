@@ -52,13 +52,14 @@
 
 @media only screen and (max-width: 1024px) {
   .link {
-    margin-inline: 50px;
+    margin-inline: 30px;
     flex-direction: column;
     height: 170px;
     gap: 10px;
     align-items: inherit;
     justify-content: left;
     padding-left: 20px;
+    padding-inline: 20px;
   }
   .link p {
     margin-top: 10px;

@@ -76,7 +76,7 @@
 @media only screen and (max-width: 1024px) {
   .header {
     gap: 80px;
-    padding-inline: 50px;
+    padding-inline: 25px;
   }
   .header_list {
     display: none;

@@ -58,6 +58,7 @@
   .statistics {
     flex-direction: column;
     padding-bottom: 800px;
+    padding-inline: 25px;
   }
   .statistics_details {
     flex-direction: column;
@@ -68,6 +69,12 @@
     margin-inline: 0px;
     align-items: center;
     gap: 2px;
+  }
+  .statistics_details h2 {
+    text-align: center;
+  }
+  .statistics_details p {
+    width: auto;
   }
   .statistics_cards_first {
     margin-top: 60px;
