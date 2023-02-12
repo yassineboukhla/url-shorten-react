@@ -32,7 +32,29 @@
   font-size: 20px;
   cursor: pointer;
   font-weight: bold;
+  white-space: nowrap;
 }
 .shortener button:hover {
   opacity: 0.8;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 1224px) {
+  .shortener {
+    margin-inline: 100px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .shortener {
+    margin-inline: 30px;
+    flex-direction: column;
+    height: 200px;
+  }
+  .shortener input {
+    width: 300px;
+  }
+  .shortener button {
+    width: 320px;
+  }
 }

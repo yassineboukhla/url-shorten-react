@@ -41,3 +41,38 @@
   font-weight: bold;
   font-size: 20px;
 }
+
+/* Media Query */
+
+@media only screen and (max-width: 1224px) {
+  .link {
+    margin-inline: 100px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .link {
+    margin-inline: 50px;
+    flex-direction: column;
+    height: 170px;
+    gap: 10px;
+    align-items: inherit;
+    justify-content: left;
+    padding-left: 20px;
+  }
+  .link p {
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+  }
+  .link_wrapper {
+    flex-direction: column;
+    gap: 20px;
+    align-items: inherit;
+    justify-content: left;
+    padding-left: 0px;
+  }
+  .link button {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}

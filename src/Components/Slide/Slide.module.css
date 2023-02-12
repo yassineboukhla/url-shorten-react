@@ -41,3 +41,31 @@
 .slide_image {
   max-width: 40%;
 }
+
+/* Media Query */
+
+@media only screen and (max-width: 1224px) {
+  .slide {
+    padding-inline: 100px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .slide {
+    flex-direction: column;
+    padding-inline: 50px;
+  }
+  .slide_wrapper h1 {
+    text-align: center;
+  }
+  .slide_wrapper p {
+    text-align: center;
+  }
+  .slide_wrapper button {
+    margin-inline: auto;
+  }
+  .slide_image {
+    order: -1;
+    max-width: 100%;
+  }
+}

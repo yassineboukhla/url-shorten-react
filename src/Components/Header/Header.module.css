@@ -56,3 +56,16 @@
 .btn_login:hover {
   color: black;
 }
+/* Media Query */
+@media only screen and (max-width: 1224px) {
+  .header {
+    gap: 80px;
+    padding-inline: 100px;
+  }
+  .header_wrap {
+    gap: 40px;
+  }
+  .btn_signup {
+    white-space: nowrap;
+  }
+}
