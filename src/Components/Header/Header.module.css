@@ -56,8 +56,20 @@
 .btn_login:hover {
   color: black;
 }
+.header_auth_mobile {
+  display: none;
+}
+.header_menu_close {
+  display: none;
+}
 .header_menu_icon {
   display: none;
+}
+.hidden {
+  display: none !important;
+}
+.visible {
+  display: flex !important;
 }
 /* Media Query */
 @media only screen and (max-width: 1224px) {
@@ -77,16 +89,55 @@
   .header {
     gap: 80px;
     padding-inline: 25px;
+    position: relative;
   }
   .header_list {
     display: none;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    top: 100%;
+    background-color: rgb(70, 34, 75);
+    padding-top: 30px;
+    height: 370px;
+    width: 300px;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    gap: 30px;
+  }
+  .header_list li {
+    color: white;
   }
   .header_auth {
     display: none;
   }
   .header_menu_icon {
-    display: inherit;
+    display: flex;
     width: 40px;
     height: 40px;
+    cursor: pointer;
+  }
+  .header_menu_close {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .header_auth_mobile {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-top: 1px gray solid;
+    padding-top: 40px;
+  }
+  .btn_login {
+    color: white;
+  }
+  .btn_signup {
+    color: white;
+    width: 250px;
   }
 }
